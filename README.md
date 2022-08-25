@@ -1,4 +1,26 @@
-# <H2>Projeto de um sistema de Rh, utilizando java como linguagem<h2>
+## 💼 **O Projeto**
+
+
+
+
+## 🎯 **Objetivo**
+
+
+<Hr>
+
+    
+ ## 🗓️ **Cronograma**
+</h2>    
+
+:heavy_check_mark:  - Kick off
+
+:heavy_check_mark: - 1º sprint
+
+:heavy_check_mark: - 2º sprint
+
+:heavy_check_mark: - 3º sprint
+- [ ]  - Feira de soluções
+<hr>
 
 <h1> Equipe 🧑‍💻 👩‍💻 </h1>
 
