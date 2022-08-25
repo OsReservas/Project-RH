@@ -1,1 +1,1 @@
-# <H2> Primeiro Readme do projeto do sistema de RH em web<h2>
+# <H2> Projeto de um sistema web, utilizando java como linguagem<h2>
