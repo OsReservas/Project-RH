@@ -22,7 +22,7 @@ A Pro4tech é fábrica de softwares que por meio da utilização de práticas av
 </h2>    
 
 :heavy_check_mark:  - Kick off 18/08/2022 <br>
-:heavy_check_mark: - 1º sprint 18/09/2022
+:heavy_check_mark: - 1º sprint 29/08/2022 a 18/09/2022
 - [ ]  - 2º sprint  09/10/2022
 - [ ]  - 3º sprint  06/11/2022
 - [ ]  - 4º sprint  27/11/2022
