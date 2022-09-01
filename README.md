@@ -16,19 +16,73 @@ A Pro4tech é fábrica de softwares que por meio da utilização de práticas av
 <h1 text align= "center"> 🎯*Objetivo </h1>
 
 
-<Hr>
- Product Backlog
-    RH pode descrever a vaga 1
-    RH pode colocar atributos na vaga 1
-    RH gerencia vaga 1
-    RH recebe relatório 3
-    Candidato pode se inscrever na vaga 2
-    Candidato pode acompanhar o andamento da vaga 3
-    Candidato pode desistir da vaga 3
-    Criar usuário master 1
-    Em andamento, deve conter campo de obsevação para o RH 3
-    Adicionar cadastro 2
-    Adicionar relatórios 3
+
+<h2>Product Backlog:</h2><br>
+<table align="center">
+  <tr>
+   <td>Ação</td>
+   <td>Prioridade</td>
+  </tr>
+
+  <tr>
+   <td>RH pode realizar a inclusão de uma vaga</td>
+   <td>1</td>
+  </tr>
+
+  <tr>
+   <td>RH pode colocar atributos na vaga</td>
+   <td>1</td>
+  </tr>
+
+  <tr>
+   <td>RH gerencia vaga</td>
+   <td>1</td>
+  </tr>
+ 
+  <tr>
+    <td>Criar Superusuário do sistema</td>
+    <td>1</td>
+  </tr>
+  
+  <tr>
+    <td>Candidato pode se aplicar na vaga de interesse</td>
+    <td>2</td>
+  </tr>
+ 
+  <tr>
+     <td>Realização de cadastro pelo candidato</td>
+     <td>2</td>
+  </tr>
+  
+  
+  <tr>
+     <td>RH recebe relatório</td>
+     <td>3</td>
+  </tr>
+ 
+  <tr>
+     <td>Candidato pode acompanhar o andamento da vaga</td>
+     <td>3</td>
+  </tr>
+ 
+  <tr>
+     <td>Candidato pode desistir da vaga</td>
+     <td>3</td>
+  </tr>
+ 
+ 
+  <tr>
+     <td>Em andamento, deve conter campo de obsevação para o RH</td>
+     <td>3</td>
+  </tr>
+ 
+  <tr>
+     <td>Adicionar relatórios</td>
+     <td>3</td>
+  </tr>
+ 
+</table>
+
     
     
     
