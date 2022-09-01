@@ -14,7 +14,7 @@ A Pro4tech é fábrica de softwares que por meio da utilização de práticas av
 
 
 <h1 text align= "center"> 🎯*Objetivo </h1>
-
+Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos, onde serão cruzados os dados dos candidatos com as vagas disponíveis, gerando assim um relatório para o RH
 
 
 <h2>Product Backlog:</h2><br>
