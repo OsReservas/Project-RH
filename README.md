@@ -6,7 +6,7 @@
 
 <h1 text align= "center"> 🏢 Sobre a Empresa Parceira </h1>
 <div text align="center">
-<img src="imagereadme/pro4tech.png"  width="591" height="200" />
+<img src="imagereadme/logo-black.svg"  width="591" height="200" />
 </div><br>
 A Pro4tech é fábrica de softwares que por meio da utilização de práticas avançadas desenvolve soluções de software sob medida, ajudando clientes a inovar, se diferenciar e crescer. Com experiência em diversas tecnologias, construindo aplicações Web e Mobile inseridas em contextos de alta complexidade e necessidades específicas para cada negócio, com Sede  na cidade de sao paulo/Brasil
 
