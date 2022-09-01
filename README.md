@@ -33,7 +33,7 @@ A Pro4tech é fábrica de softwares que por meio da utilização de práticas av
     
     
     
-<h1 text align= "center"> 🗓️ Cronograma <h1
+<h1 text align= "center"> 🗓️ Cronograma </h1>
 </h2>    
 
 :heavy_check_mark:  - Kick off 18/08/2022 <br>
