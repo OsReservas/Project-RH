@@ -121,13 +121,13 @@ A Pro4tech é fábrica de softwares que por meio da utilização de práticas av
             <td><a href="https://www.linkedin.com/mwlite/in/guilherme-alves-163783156" target="_blank"><img src="imagereadme/linkedin.png" target="_blank">               </a></td>
             <td><img src="imagereadme/guiavatar.png" width="120" height="135"  /></td>
       </tr>
-       <tr>
+       <tr text align= "center">
             <td>Maria Alice</td>
-            <td>Team Database</td>
+            <td>Dev Team front-end</td>
             <td><a href="https://www.linkedin.com/in/maria-alice-oliveira-336273215" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a>             </td>
             <td><img src="imagereadme/alice.jpeg" width="120" height="135" /></td>
        </tr>
-       <tr>
+       <tr text align= "center">
             <td>Marcelo Bueno</td>
             <td>Dev Team backend</td>
             <td><a href="https://www.linkedin.com/in/marcelo-silva-07081999" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a></td>
@@ -145,9 +145,9 @@ A Pro4tech é fábrica de softwares que por meio da utilização de práticas av
             <td><a href="https://www.linkedin.com/in/thiago-lopes-chaves-5ba22b209" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a>             </td>
             <td><img src="imagereadme/thiago.jpeg" width="120" height="135" /></td>
       </tr>
-      <tr>
+      <tr text align= "center">
             <td>Beatrice Lopes</td>
-            <td>Dev Team front-end</td>
+            <td>Team Database</td>
             <td><a href="https://www.linkedin.com/in/bewtrice/" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a>             </td>
             <td><img src="imagereadme/avatarbea.jpeg" width="120" height="135" /></td>
       </tr>
