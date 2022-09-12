@@ -109,12 +109,6 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
             <td>Linkedin</td>
             <td>Avatar</td>
       </tr>
-      <tr text align= "center">
-            <td>André Gabriel</td>
-            <td>product owner</td>
-            <td><a href="https://www.linkedin.com/in/andr%C3%A9-gabriel-ferreira-89441382/" target="_blank"><img src="imagereadme/linkedin.png"                           target="_blank"></a></td>
-            <td><img src="/imagereadme/andre.jpeg" width="120" height="135" /></td>
-      </tr>
       <tr text align= "center" >
             <td>Guilherme Alves</td>
             <td>Dev Team front-end</td>
@@ -135,7 +129,7 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
       </tr>
       <tr text align= "center" >
             <td>Murilo Junior</td>
-            <td>Dev Team backend</td>
+            <td>product owner / Dev Team backend</td>
             <td><a href="https://www.linkedin.com/in/murilo-jos%C3%A9-de-brito-junior-32403b157" target="_blank"><img src="imagereadme/linkedin.png"                     target="_blank"></a></td>
             <td><img src="imagereadme/murilo.jpeg" width="120" height="135"/></td>
       </tr>
