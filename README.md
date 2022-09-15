@@ -50,7 +50,7 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
   </tr>
  
   <tr>
-     <td>Realização de cadastro pelo candidato</td>
+     <td>Realização de cadastro pelo candidato:</td>
      <td>2</td>
   </tr>
   
