@@ -87,7 +87,7 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
     
     
     
-<h1 text align= "center"> 🗓️ Cronograma </h1>
+<h1 text align= "center"> 🗓️ Cronograma: </h1>
 </h2>    
 
 :heavy_check_mark:  - Kick off 18/08/2022 <br>
