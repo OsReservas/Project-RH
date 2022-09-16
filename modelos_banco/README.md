@@ -1,7 +1,11 @@
-### Modelos da primeira sprint
+<h1 align="center">Modelos da primeira sprint</h1>
+ 
+<h3 align="center">Modelo Conceitual</h3>
+<p align="center">
+<img src= " " width="400" title="modelo conceitual">
+</p>
 
-## Tela do cadastro de vaga 
-
-## Modelo Conceitual
-
-## Modelo lógico
+<h3 align="center">Modelo lógico</h3>
+<p align="center">
+<img src= " " width="400" title="modelo logico">
+</p>
