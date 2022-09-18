@@ -90,32 +90,30 @@
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txtHorario" alignment="0" pref="294" max="32767" attributes="0"/>
+                          <Component id="txtFormacao" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtTitulo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabelTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelCargo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCargo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabelFormacao" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabelHorario" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="txtHorario" alignment="0" pref="294" max="32767" attributes="0"/>
-                                  <Component id="txtFormacao" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="txtTitulo" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabelTitle" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabelCargo" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txtCargo" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabelFormacao" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                              <Component id="jLabelRegime" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
-                                      <Component id="jLabelRegime" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jLabelDescricao" min="-2" max="-2" attributes="0"/>
-                                          <Component id="txtDesc" alignment="0" pref="297" max="32767" attributes="0"/>
-                                          <Component id="txtRegime" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="jLabelSalario" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
-                                          <Component id="txtSalario" alignment="0" max="32767" attributes="0"/>
-                                      </Group>
+                                  <Component id="jLabelSalario" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabelDescricao" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtDesc" alignment="0" pref="297" max="32767" attributes="0"/>
+                                      <Component id="txtRegime" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtSalario" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -144,25 +142,25 @@
                           <Component id="txtTitulo" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="txtRegime" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabelCargo" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabelDescricao" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="txtCargo" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                              <EmptySpace pref="80" max="32767" attributes="0"/>
                               <Component id="jLabelFormacao" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="txtFormacao" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabelHorario" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabelSalario" alignment="3" min="-2" pref="61" max="-2" attributes="0"/>
+                                  <Component id="jLabelSalario" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="txtHorario" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="txtSalario" alignment="3" min="-2" max="-2" attributes="0"/>
