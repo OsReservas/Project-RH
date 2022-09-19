@@ -98,6 +98,10 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
 - [ ]  - Feira de soluções
 <hr>
 
+<div text align="center">
+<img src="imagereadme/grafico burndown.PNG"  width="591" height="200" />
+</div><br>
+  
 <h1 text align= "center"> Equipe 🧑‍💻 👩‍💻 </h1>
 
 <h2> :clap: Um agradecimento especial as seguintes pessoas que contribuíram para que este projeto fosse possivel </h2>
