@@ -91,8 +91,8 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
 </h2>    
 
 :heavy_check_mark:  - Kick off 18/08/2022 <br>
-:heavy_check_mark: - 1º sprint 29/08/2022 a 18/09/2022
-:heavy_check_mark: - 2º sprint  09/10/2022
+:heavy_check_mark: - 1º sprint 29/08/2022 a 18/09/2022<BR>
+:heavy_check_mark: - 2º sprint 19/08/2022 a 09/10/2022
 - [ ]  - 3º sprint  06/11/2022
 - [ ]  - 4º sprint  27/11/2022
 - [ ]  - Feira de soluções
@@ -109,34 +109,34 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
             <td>Linkedin</td>
             <td>Avatar</td>
       </tr>
-      <tr text align= "center" >
-            <td>Guilherme Alves</td>
-            <td>Dev Team front-end</td>
-            <td><a href="https://www.linkedin.com/mwlite/in/guilherme-alves-163783156" target="_blank"><img src="imagereadme/linkedin.png" target="_blank">               </a></td>
-            <td><img src="imagereadme/guiavatar.png" width="120" height="135"  /></td>
-      </tr>
-       <tr text align= "center">
-            <td>Marcelo Bueno</td>
-            <td>Dev Team backend</td>
-            <td><a href="https://www.linkedin.com/in/marcelo-silva-07081999" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a></td>
-            <td><img src="imagereadme/marcelo.jpeg" width="120" height="135"/></td>
-      </tr>
-      <tr text align= "center" >
-            <td>Murilo Junior</td>
-            <td>product owner / Dev Team backend</td>
-            <td><a href="https://www.linkedin.com/in/murilo-jos%C3%A9-de-brito-junior-32403b157" target="_blank"><img src="imagereadme/linkedin.png"                     target="_blank"></a></td>
-            <td><img src="imagereadme/murilo.jpeg" width="120" height="135"/></td>
-      </tr>
-      <tr text align= "center" >
+        <tr text align= "center" >
             <td>Thiago Chaves</td>
             <td>Scrum Master</td>
             <td><a href="https://www.linkedin.com/in/thiago-lopes-chaves-5ba22b209" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a>             </td>
             <td><img src="imagereadme/thiago.jpeg" width="120" height="135" /></td>
       </tr>
+      <tr text align= "center" >
+            <td>Murilo Junior</td>
+            <td>Product Owner</td>
+            <td><a href="https://www.linkedin.com/in/murilo-jos%C3%A9-de-brito-junior-32403b157" target="_blank"><img src="imagereadme/linkedin.png"                     target="_blank"></a></td>
+            <td><img src="imagereadme/murilo.jpeg" width="120" height="135"/></td>
+      </tr>
+      <tr text align= "center" >
+            <td>Guilherme Alves</td>
+            <td>Dev Team Front-End</td>
+            <td><a href="https://www.linkedin.com/mwlite/in/guilherme-alves-163783156" target="_blank"><img src="imagereadme/linkedin.png" target="_blank">               </a></td>
+            <td><img src="imagereadme/guiavatar.png" width="120" height="135"  /></td>
+      </tr>
+       <tr text align= "center">
+            <td>Marcelo Bueno</td>
+            <td>Dev Team Backend</td>
+            <td><a href="https://www.linkedin.com/in/marcelo-silva-07081999" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a></td>
+            <td><img src="imagereadme/marcelo.jpeg" width="120" height="135"/></td>
+      </tr>
       <tr text align= "center">
             <td>Beatrice Lopes</td>
-            <td>Team Database</td>
-            <td><a href="https://www.linkedin.com/in/bewtrice/" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a>             </td>
+            <td>Team Batabase</td>
+            <td><a href="https://www.linkedin.com/in/bewtrice/" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a></td>
             <td><img src="imagereadme/avatarbea.jpeg" width="120" height="135" /></td>
       </tr>
 </table>
