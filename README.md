@@ -112,24 +112,13 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
             <td >Cargo/Funcao</td>
             <td>Linkedin</td>
             <td>Avatar</td>
-      </tr>
-      <tr text align= "center">
-            <td>André Gabriel</td>
-            <td>product owner</td>
-            <td><a href="https://www.linkedin.com/in/andr%C3%A9-gabriel-ferreira-89441382/" target="_blank"><img src="imagereadme/linkedin.png"                           target="_blank"></a></td>
-            <td><img src="/imagereadme/andre.jpeg" width="120" height="135" /></td>
-      </tr>
+
       <tr text align= "center" >
             <td>Guilherme Alves</td>
             <td>Dev Team front-end</td>
             <td><a href="https://www.linkedin.com/mwlite/in/guilherme-alves-163783156" target="_blank"><img src="imagereadme/linkedin.png" target="_blank">               </a></td>
             <td><img src="imagereadme/guiavatar.png" width="120" height="135"  /></td>
-      </tr>
-       <tr text align= "center">
-            <td>Maria Alice</td>
-            <td>Dev Team front-end</td>
-            <td><a href="https://www.linkedin.com/in/maria-alice-oliveira-336273215" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a>             </td>
-            <td><img src="imagereadme/alice.jpeg" width="120" height="135" /></td>
+        
        </tr>
        <tr text align= "center">
             <td>Marcelo Bueno</td>
