@@ -119,7 +119,7 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
    <td>3</td>
   </tr>
  </table>
- <h2>Gráfico:</h2><br>
+ <h2>Gráfico burndown:</h2><br>
  
 <h1 text align= "center"> Equipe 🧑‍💻 👩‍💻 </h1> 
 <h2> :clap: Um agradecimento especial as seguintes pessoas que contribuíram para que este projeto fosse possivel </h2>
