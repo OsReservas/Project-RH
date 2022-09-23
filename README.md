@@ -92,7 +92,7 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
 
 :heavy_check_mark:  - Kick off 18/08/2022 <br>
 :heavy_check_mark: - 1º sprint 29/08/2022 a 18/09/2022
-- [ ]  - 2º sprint  09/10/2022
+:heavy_check_mark: - 2º sprint  09/10/2022
 - [ ]  - 3º sprint  06/11/2022
 - [ ]  - 4º sprint  27/11/2022
 - [ ]  - Feira de soluções
@@ -115,12 +115,6 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
             <td><a href="https://www.linkedin.com/mwlite/in/guilherme-alves-163783156" target="_blank"><img src="imagereadme/linkedin.png" target="_blank">               </a></td>
             <td><img src="imagereadme/guiavatar.png" width="120" height="135"  /></td>
       </tr>
-       <tr text align= "center">
-            <td>Maria Alice</td>
-            <td>Dev Team front-end</td>
-            <td><a href="https://www.linkedin.com/in/maria-alice-oliveira-336273215" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a>             </td>
-            <td><img src="imagereadme/alice.jpeg" width="120" height="135" /></td>
-       </tr>
        <tr text align= "center">
             <td>Marcelo Bueno</td>
             <td>Dev Team backend</td>
