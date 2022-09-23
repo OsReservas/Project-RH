@@ -96,10 +96,32 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
 - [ ]  - 3º sprint  06/11/2022
 - [ ]  - 4º sprint  27/11/2022
 - [ ]  - Feira de soluções
-<hr>
 
-<h1 text align= "center"> Equipe 🧑‍💻 👩‍💻 </h1>
 
+<h2>Sprint Backlog:</h2><br>
+<table align="center">
+  <tr>
+   <td>Ação</td>
+   <td>Prioridade</td>
+  </tr>
+  <tr>
+    <td>Criar Superusuário do sistema</td>
+    <td>1</td>
+  </tr>
+  
+  <tr>
+   <td>RH pode colocar atributos na vaga</td>
+   <td>2</td>
+  </tr>
+  
+   <tr>
+   <td>RH gerencia vaga</td>
+   <td>3</td>
+  </tr>
+ </table>
+ <h2>Gráfico:</h2><br>
+ 
+<h1 text align= "center"> Equipe 🧑‍💻 👩‍💻 </h1> 
 <h2> :clap: Um agradecimento especial as seguintes pessoas que contribuíram para que este projeto fosse possivel </h2>
 
 <table align= "center">
