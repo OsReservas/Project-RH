@@ -1,20 +1,18 @@
-<h1 text align= "center"> 💼 O Projeto </h1>
+<h1 text align= "center"> 💼 </h1>
 
 
+![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
 
-
-<h1 text align= "center"> 🏢 Sobre a Empresa Parceira </h1>
 <div text align="center">
-<img src="imagereadme/logo-black.svg"  width="591" height="200" />
+<img src="doc/imagereadme/logo-black.svg"  width="591" height="200" />
 </div><br>
-A Pro4tech é fábrica de softwares que por meio da utilização de práticas avançadas desenvolve soluções de software sob medida, ajudando clientes a inovar, se diferenciar e crescer. Com experiência em diversas tecnologias, construindo aplicações Web e Mobile inseridas em contextos de alta complexidade e necessidades específicas para cada negócio, com Sede  na cidade de sao paulo/Brasil
-
-
-
-
-<h1 text align= "center"> 🎯*Objetivo </h1>
-Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos, onde serão cruzados os dados dos candidatos com as vagas disponíveis, gerando assim um relatório para o RH
+A Pro4tech é uma fábrica de softwares que por meio da utilização de práticas avançadas desenvolve soluções de software sob medida, ajudando clientes a inovar, se diferenciar e crescer. Com experiência em diversas tecnologias, construindo aplicações Web e Mobile inseridas em contextos de alta complexidade e necessidades específicas para cada negócio, com sede  na cidade de São Paulo.
+O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de vaga para Recursos Humanos, onde serão cruzados os dados dos candidatos com as vagas disponíveis, gerando assim um relatório para o RH.
 
 
 <h2>Product Backlog:</h2><br>
@@ -163,4 +161,5 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
       </tr>
 </table>
 
-
+<p align="center">
+<img src="https://madewithlove.now.sh/br?heart=true&colorB=%2338dc71&template=for-the-badge" alt="Made with love in Brazil">
