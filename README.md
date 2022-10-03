@@ -1,10 +1,10 @@
-
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-
+<p align="center">
+    <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"/>
+    <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white"/>
+    <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
+    <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
 
 <div text align="center">
 <img src="doc/imagereadme/logo-black.svg"  width="591" height="200" />
@@ -15,42 +15,40 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
 </p>
 
 <!--<h2>Product Backlog:</h2><br>-->   
-    
-<h2 text align= "left"> 🗓️ Cronograma
-</h2>    
 
-- Kick off 18/08/2022 <br>
-- 1º sprint 29/08/2022 a 18/09/2022<BR>
-- 2º sprint 19/08/2022 a 09/10/2022
-- 3º sprint  06/11/2022
-- 4º sprint  27/11/2022
-- Feira de soluções
-
-<!--<h2>Sprint Backlog:</h2><br>
+<h2 align="center">Entregas</h2>
 <table align="center">
-  <tr>
-   <td>Ação</td>
-   <td>Prioridade</td>
-  </tr>
-  <tr>
-    <td>Criar Superusuário do sistema</td>
-    <td>1</td>
-  </tr>
-  
-  <tr>
-   <td>RH pode colocar atributos na vaga</td>
-   <td>2</td>
-  </tr>
-  
-   <tr>
-   <td>RH gerencia vaga</td>
-   <td>3</td>
-  </tr>
- </table>
- <h2>Gráfico burndown:</h2><br>-->
- 
- 
+    <thead>
+        <th width=100px>Sprint</th>
+        <th width=450px>Descrição</th>
+        <th width=70px>Entrega</th>
+        <th width=45px>Read me</th>
+    </thead>
+    <tr>
+        <td><p align="center">Sprint 1</p></td>
+        <td><p align="justify">Criação de interfaces e de tela cadastro de vaga.</p></td>
+        <td><p align="center">18/09</p></td>
+        <td><p align="center"><a href="https://github.com/ZeldaBD/Project-RH/tree/version1.0">View</a></p></td>
+    </tr>
+    <tr>
+        <td><p align="center">Sprint 2</p></td>
+        <td><p align="justify">Gerenciamento de vaga, criação do banco de dados, mascaras e mudanças na interface</p></td>
+        <td><p align="center">09/10</p></td>
+        <td><p align="center"><a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.2">View</p></td>
+</table>
+
+<!--<h2 align="center">Product Backlog</h2>-->
+
+<h2 align="center">User Stories :computer:</h2>
+    <p align="center">
+    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.2/doc/userstories/userstories_1.png" width="600px">
+    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.2/doc/userstories/userstories_2.png" width="600px">
 <p align="left">
+
+<!--<h2 align="center">Wireframes</h2>
+    <p align="center">
+    <img src= "" width="600px">
+    <img src= "" width="600px">-->
 <h2>Equipe 👩‍💻</h2>
 <ul>
     <li><a href="https://www.linkedin.com/in/thiago-lopes-chaves-5ba22b209">Thiago Chaves </a>(<i>Scrum Master</i>)</li>
@@ -61,3 +59,13 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
 
 </ul>
         
+        
+ <h2 text align= "left"> 🗓️ Cronograma
+</h2>    
+
+- Kick off 18/08/2022 <br>
+- 1º sprint 29/08/2022 a 18/09/2022<BR>
+- 2º sprint 19/08/2022 a 09/10/2022
+- 3º sprint  06/11/2022
+- 4º sprint  27/11/2022
+- Feira de soluções
