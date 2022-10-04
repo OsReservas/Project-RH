@@ -25,6 +25,7 @@ import java.util.List;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JScrollPane;
+import javax.swing.JFormattedTextField;
 
 public class TelaCadastro extends JFrame {
 
@@ -149,11 +150,18 @@ public class TelaCadastro extends JFrame {
 		panel.add(txtSalario);
 		txtSalario.setColumns(10);
 		
+		
 		JButton btnCadastrar = new JButton("Cadastrar");
 		btnCadastrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				VagaDao vagadao = new VagaDao();
 				Vaga vaga = new Vaga();
+				
+				
+				//String conversor = (txtSalario.getText());
+				//conversor.replace(",", ".");
+				
+				
 				vaga.setTitulo(txtTitulo.getText());
 				vaga.setCargo(txtCargo.getText());
 				vaga.setFormacao(txtFormacao.getText());
@@ -183,10 +191,11 @@ public class TelaCadastro extends JFrame {
 				vaga.setRegime(comRegime.getSelectedItem().toString());
 				vaga.setDescricao(txtDescricao.getText());
 				vaga.setSalario(Double.parseDouble(txtSalario.getText()));
-				
+		
 				vagadao.atualizarVaga(vaga);
 				tabbedPane.setSelectedIndex(1);
 				btnCadastrar.setVisible(true);
+				btnAtualizar.setVisible(false);
 				
 			}
 		});
@@ -342,10 +351,8 @@ public class TelaCadastro extends JFrame {
 					vagadao.deletarVaga(vaga);
 					
 				}else {
-					JOptionPane.showMessageDialog(null, "Selecione uma linha para atualizar! ");
+					JOptionPane.showMessageDialog(null, "Selecione uma linha para excluir! ");
 				}
-				
-				
 				
 				
 			}
@@ -354,8 +361,11 @@ public class TelaCadastro extends JFrame {
 		panel_1.add(btnExcluir);
 	
 	}
-	
-	
+
+	private Object MaskFormatter(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
 
 

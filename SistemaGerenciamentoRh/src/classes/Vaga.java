@@ -9,7 +9,7 @@ public class Vaga {
 	 private String periodo;
 	 private String regime;
 	 private String descricao;
-	 private Double salario;
+	 private double salario;
 	 
 	 public Vaga() {
 	}
@@ -74,7 +74,6 @@ public class Vaga {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	 
-	 
+
 
 }

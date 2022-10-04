@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JOptionPane;
-import javax.swing.table.DefaultTableModel;
 
 import classes.Vaga;
 import conexao.ConnectionFactory;
@@ -35,7 +34,6 @@ public class VagaDao {
 			JOptionPane.showMessageDialog(null, "Cadastrado com sucesso");
 		}catch (Exception ex) {
 			JOptionPane.showMessageDialog(null, "Erro ao cadastrar vaga" + ex.getMessage());
-			//ex.printStackTrace();
 		} finally {
 			try {
 				if (pstm != null) {
@@ -45,7 +43,7 @@ public class VagaDao {
 					conn.close();
 				}
 			}catch (Exception ex) {
-				ex.printStackTrace();
+				JOptionPane.showMessageDialog(null, "Erro ao encerrar a conexão! "+ ex.getMessage());
 			}
 			
 		}
@@ -53,7 +51,7 @@ public class VagaDao {
 	
 	public void atualizarVaga (Vaga vaga) {
 		
-		String sql = "UPDATE vaga Set  titulo = ?, cargo = ?, formacao = ?, periodo = ?, regime = ?, descricao = ?, salario = ? " +
+		String sql = "UPDATE vaga SET  titulo = ?, cargo = ?, formacao = ?, periodo = ?, regime = ?, descricao = ?, salario = ? " +
 		"WHERE id = ?";
 		
 		Connection conn = null;
@@ -70,7 +68,7 @@ public class VagaDao {
 			pstm.setString(5, vaga.getRegime());
 			pstm.setString(6, vaga.getDescricao());
 			pstm.setDouble(7, vaga.getSalario());
-			
+		
 			pstm.setInt(8, vaga.getId());
 			pstm.execute();
 			JOptionPane.showMessageDialog(null, "Vaga atualizada com sucesso!");
@@ -98,7 +96,7 @@ public class VagaDao {
 		
 		String sql = "DELETE FROM vaga WHERE id = ?";
 		
-		int opcao = JOptionPane.showConfirmDialog(null, "Tem certeza que deseja excluir a vaga?", "Excluir", JOptionPane.YES_NO_OPTION);
+		int opcao = JOptionPane.showConfirmDialog(null, "Tem certeza que deseja excluir a vaga selecionada?", "Excluir", JOptionPane.YES_NO_OPTION);
 		if (opcao == JOptionPane.YES_OPTION) {
 			
 		try {
