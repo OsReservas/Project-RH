@@ -1,0 +1,24 @@
+create database dbinfox;
+use dbinfox;
+
+create table tbusuarios(
+	iduser int primary key auto_increment,
+    usuario varchar(50) not null,
+    fone varchar(15),
+    login varchar (15) not null unique,
+    senha varchar (15) not null
+    
+);
+
+
+insert into tbusuarios(iduser, usuario, fone, login, senha) 
+values(default, 'Guilherme Alves', '12-9999-9999', 'guialves', '12345');
+
+insert into tbusuarios(iduser, usuario, fone, login, senha) 
+values(default, 'Administrador', '12-9999-9999', 'admin', 'admin');
+
+insert into tbusuarios(iduser, usuario, fone, login, senha) 
+values(default, 'JimmyFive', '12-9999-9999', 'billuser', 'biluser');
+
+
+select * from tbusuarios;
