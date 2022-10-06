@@ -14,7 +14,36 @@ A Pro4tech é uma fábrica de softwares que por meio da utilização de prática
 O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de vaga para Recursos Humanos, onde serão cruzados os dados dos candidatos com as vagas disponíveis, gerando assim um relatório para o RH.
 </p>
 
-<!--<h2>Product Backlog:</h2><br>-->   
+<h2 text align= "left"> 🗓️ Cronograma
+</h2>    
+
+- Kick off 18/08/2022 <br>
+- 1º sprint 29/08/2022 a 18/09/2022<BR>
+- 2º sprint 19/08/2022 a 09/10/2022
+- 3º sprint  06/11/2022
+- 4º sprint  27/11/2022
+- Feira de soluções
+
+<h2 align="center">Sprint Backlog 📊</h2><br>  
+
+<table align="center">
+    <thead>
+        <th>Ação</th>
+        <th>Prioridade</th>
+    </thead>
+    <tr>
+        <td><p>Criar Superusuário do sistema</p></td>
+        <td><p align="center">1</p></td>
+    </tr>
+    <tr>
+        <td><p>RH gerencia vaga</p></td>
+        <td><p align="center">2</p></td>
+    </tr>
+    <tr>
+        <td><p>RH pode colocar atributos na vaga</p></td>
+        <td><p align="center">3</p></td>
+    </tr>
+</table>
 
 <h2 align="center">Entregas</h2>
 <table align="center">
@@ -60,12 +89,4 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
 </ul>
         
         
- <h2 text align= "left"> 🗓️ Cronograma
-</h2>    
-
-- Kick off 18/08/2022 <br>
-- 1º sprint 29/08/2022 a 18/09/2022<BR>
-- 2º sprint 19/08/2022 a 09/10/2022
-- 3º sprint  06/11/2022
-- 4º sprint  27/11/2022
-- Feira de soluções
+ 
