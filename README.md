@@ -7,7 +7,7 @@
 </p>
 
 <div text align="center">
-<img src="doc/imagereadme/logo-black.svg"  width="591" height="200" />
+<img src="https://github.com/ZeldaBD/Project-RH/raw/version1.0/imagereadme/logo-black.svg"  width="591" height="200" />
 </div><br>
 <p align="left">
 A Pro4tech é uma fábrica de softwares que por meio da utilização de práticas avançadas desenvolve soluções de software sob medida, ajudando clientes a inovar, se diferenciar e crescer. Com experiência em diversas tecnologias, construindo aplicações Web e Mobile inseridas em contextos de alta complexidade e necessidades específicas para cada negócio, com sede  na cidade de São Paulo.
