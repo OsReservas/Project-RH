@@ -78,6 +78,15 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
     <p align="center">
     <img src= "" width="600px">
     <img src= "" width="600px">-->
+
+<h2 align="center">Burndown 2º Sprint 📊</h2><br>
+<div text align="center">
+<img src="https://github.com/ZeldaBD/Project-RH/raw/version1.0/imagereadme/logo-black.svg"  width="591" height="200" />
+</div><br>
+
+
+
+
 <h2>Equipe 👩‍💻</h2>
 <ul>
     <li><a href="https://www.linkedin.com/in/thiago-lopes-chaves-5ba22b209">Thiago Chaves </a>(<i>Scrum Master</i>)</li>
