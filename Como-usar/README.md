@@ -20,6 +20,6 @@ Carregará outra página logo em seguida, você pode clicar em "no thanks, just 
 <img src="/Como-usar/img/mysql03.png"><br><br>
 
 Feito o download, inicie o programa wizard do MySQL, terminando de carregar, abrirá a seguinte janela:
-<img src="/Como-usar/img/mysql04.png"><br><br>
+<img src="/Como-usar/img/mysql05.png"><br><br>
 
 
