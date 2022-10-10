@@ -3,7 +3,7 @@
 ### Tecnologias necessárias:
 
 - Java 18.0.2.1
-- Mysql 8.0.30.o
+- Mysql 8.0.30.0
 
 **Você pode instalar a versão java necessária <a href="https://www.java.com/pt-BR/download/">aqui</a>**<br>
 **Você pode instalar a versão MySQL necessária <a href="https://dev.mysql.com/downloads/installer/">aqui</a>**
@@ -20,7 +20,7 @@ Feito o download, extraia os arquivos aonde preferir no seu sistema, logo em seg
 
 Abra o Mysql e Execute o codigo do banco que esta no bloco de notas da pasta:<br>
 
-<img scr="/Como-usar/img/imgExec1.PNG"><br><br>
+<img scr="/Como-usar/img/imgexec1.png"><br><br>
 
 Logo depois, clique no executável TelaCadastroVagas, e abrirá a aplicação.<br>
 
@@ -28,7 +28,7 @@ Logo depois, clique no executável TelaCadastroVagas, e abrirá a aplicação.<b
 
 ### Usando como usuário Administrador:
 
-O usuário Admin terá que fazer login, e ao validar o acesso, ele já entrará na tela de cadastro de RH, onde conseguirá cadastrar novos usuários do RH. (Usuario: adm@pro4tech.com ,senha: adm123) <br><br>
+O usuário Admin terá que fazer login, e ao validar o acesso, ele já entrará na tela de cadastro de RH, onde conseguirá cadastrar novos usuários do RH. (Usuario: adm@pro4tech.com , senha: adm123) <br><br>
 Confira o video a seguir para um tutorial mais detalhado:<br>
 <img src="/Como-usar/img/rh01.gif"><br><br>
 
@@ -38,7 +38,7 @@ O admin também pode editar e excluir os usuários de RH. Veja o vídeo exemplo:
 
 ### Usando como usuário de RH:
 
-O usuário de RH terá que fazer login, e ao validar o acesso, ele entrará na tela de cadastro de vagas, onde conseguirá cadastrar novas vagas para os candidatos. (Usuario: rh@pro4tech.com ,senha: rh123 <br><br>
+O usuário de RH terá que fazer login, e ao validar o acesso, ele entrará na tela de cadastro de vagas, onde conseguirá cadastrar novas vagas para os candidatos. (Usuario: rh@pro4tech.com , senha: rh123)<br><br>
 
 Confira o vídeo a seguir para um tutorial mais detalhado: <br>
 
