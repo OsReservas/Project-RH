@@ -20,7 +20,7 @@ Feito o download, extraia os arquivos aonde preferir no seu sistema, logo em seg
 
 Abra o Mysql e Execute o codigo do banco que esta no bloco de notas da pasta:<br>
 
-<img scr="/Como-usar/img/pastaexec.png"><br><br>
+<img src="/Como-usar/img/pastaexec.png"><br><br>
 
 Logo depois, clique no executável TelaCadastroVagas, e abrirá a aplicação.<br>
 
