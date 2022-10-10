@@ -16,13 +16,13 @@ Ao acessar o <a href="https://github.com/ZeldaBD/Project-RH/tree/main">github</a
 
 Feito o download, extraia os arquivos aonde preferir no seu sistema, logo em seguida abra a pasta de **EXECUTAVEL**.<br>
 
-<img src="/Como-usar/img/pastaexec1.png"><br><br>
+<img src="/Como-usar/img/execpasta1.png><br><br>
 
 Abra o MySQL e execute o codigo do banco de dados que esta no bloco de notas da pasta.<br>
 
-<img src="/Como-usar/img/pastaexec3.png"><br><br>
+<img src="/Como-usar/img/execpasta1.png"><br><br>
 
-Logo depois, clique no executável TelaCadastroVagas, e abrirá a aplicação.<br>
+Logo depois, clique no executável SistemaRhPro4Tech, e abrirá a aplicação.<br>
 
 <img src="/Como-usar/img/rhtela01.png"><br><br>
 
