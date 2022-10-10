@@ -20,7 +20,7 @@ Feito o download, extraia os arquivos aonde preferir no seu sistema, logo em seg
 
 Abra o Mysql e Execute o codigo do banco que esta no bloco de notas da pasta:<br>
 
-<img scr="/Como-usar/img/imgexec1.png"><br><br>
+<img scr="/Como-usar/img/pastaexec.png"><br><br>
 
 Logo depois, clique no executável TelaCadastroVagas, e abrirá a aplicação.<br>
 
@@ -38,7 +38,7 @@ O admin também pode editar e excluir os usuários de RH. Veja o vídeo exemplo:
 
 ### Usando como usuário de RH:
 
-O usuário de RH terá que fazer login, e ao validar o acesso, ele entrará na tela de cadastro de vagas, onde conseguirá cadastrar novas vagas para os candidatos. (Usuario: rh@pro4tech.com , senha: rh123)<br><br>
+O usuário de RH terá que fazer login, e ao validar o acesso, ele entrará na tela de cadastro de vagas, onde conseguirá cadastrar novas vagas para os candidatos. (Usuario: rh@pro4tech.com , senha: rh123) <br><br>
 
 Confira o vídeo a seguir para um tutorial mais detalhado: <br>
 
