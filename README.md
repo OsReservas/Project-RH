@@ -60,6 +60,13 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
         <td><p align="justify">Gerenciamento de vaga, criação do banco de dados, mascaras e mudanças na interface</p></td>
         <td><p align="center">09/10</p></td>
         <td><p align="center"><a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.2">View</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">Sprint 3</p></td>
+        <td><p align="justify">Cadastro de candidato, o usuário pode se aplicar a vaga, filtros de pesquisa, permissões extras adm</p></td>
+        <td><p align="center">06/11</p></td>
+        <td><p align="center"><a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.3">View</p></td>
+    </tr>
 </table>
 
 <!--<h2 align="center">Product Backlog</h2>-->
@@ -75,10 +82,8 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
     <img src= "" width="600px">
     <img src= "" width="600px">-->
 
-<h2 align="center">Burndown 2º Sprint 📊</h2><br>
-<div text align="center">
-<img src="https://github.com/ZeldaBD/Project-RH/raw/version-0.2/doc/Gráfico Burndown/burndown sprint 2.JPG"  width="591" height="200" />
-</div><br>
+<h2 align="center">Burndown 3º Sprint 📊</h2><br>
+
 
 
 
