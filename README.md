@@ -14,6 +14,9 @@ A Pro4tech é uma fábrica de softwares que por meio da utilização de prática
 O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de vaga para Recursos Humanos, onde serão cruzados os dados dos candidatos com as vagas disponíveis, gerando assim um relatório para o RH.
 </p>
 
+<h2 align="center"> 💻 Modo de uso do sistema</h2>
+<p>Você pode acessar o modo de uso do sistema clicando <a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.3/Como-usar">aqui</a></p>
+
 <h2 text align= "left"> 🗓️ Cronograma
 </h2>    
 
