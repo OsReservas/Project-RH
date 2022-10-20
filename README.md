@@ -32,16 +32,12 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
         <th>Prioridade</th>
     </thead>
     <tr>
-        <td><p>Criar Superusuário do sistema</p></td>
+        <td><p>Cadastro de candidato</p></td>
         <td><p align="center">1</p></td>
     </tr>
     <tr>
-        <td><p>RH gerencia vaga</p></td>
+        <td><p>O candidato pode se aplicar à vaga</p></td>
         <td><p align="center">2</p></td>
-    </tr>
-    <tr>
-        <td><p>RH pode colocar atributos na vaga</p></td>
-        <td><p align="center">3</p></td>
     </tr>
 </table>
 
