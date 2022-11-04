@@ -32,7 +32,7 @@ sexo   varchar (15) not null,
 raca   varchar(15),
 linkedin   varchar(50),
 telefone  varchar (15),
-celular varchar (15) unique not null,
+celular varchar (15) unique,
 cep varchar (10),
 logadouro varchar (10),
 endereco varchar (50),
@@ -40,17 +40,12 @@ numero bigint,
 cidade varchar (50),
 complemento  varchar (30),
 idusuario int,
-idformacao int,
-idcurso int,
-idexperiencia int,
 foreign key(idusuario) references usuario(id),
-foreign key(idformacao) references formacao(idformacao),
-foreign key(idcurso) references curso (idcurso),
 foreign key(idexperiencia) references experiencia(idexperiencia),
 primary key (idcandidato)
 );
 
-drop table candidato;
+drop database bancotech;
 
 ALTER TABLE candidato change nascionalidade nacionalidade varchar(20);
 
@@ -63,7 +58,9 @@ nomeformacao     varchar (50) unique not null,
 instituicao  varchar(50) unique not null,
 inicio   varchar (15) not null,
 termino   varchar(15),
-situacao   varchar(15),  
+situacao   varchar(15), 
+idcandidato int,
+foreign key(idcandidato) references candidato(idcandidato),
 primary key (idformacao)
 );
 
@@ -74,6 +71,8 @@ instituicao  varchar(50) unique not null,
 conclusao   varchar (15) not null,
 nivel   varchar(15),
 idioma   varchar(30),
+idcandidato int,
+foreign key(idcandidato) references candidato(idcandidato),
 primary key (idcurso)
 );
 
@@ -86,7 +85,9 @@ segmento  varchar(50) unique not null,
 inicio   varchar (15) not null,
 termino   varchar(15),
 atual   varchar(15),  
-descricao   varchar(500),  
+descricao   varchar(500),
+idcandidato int,
+foreign key(idcandidato) references candidato(idcandidato),  
 primary key (idexperiencia)
 );
 
