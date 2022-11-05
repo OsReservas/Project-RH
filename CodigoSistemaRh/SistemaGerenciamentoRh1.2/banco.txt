@@ -108,7 +108,7 @@ Insert INTO aplicado (mesa)  VALUES ('quadrado');
 
 
 
-select * from formacao;
+select * from aplicado;
 
 CREATE USER 'pro4tech'@'localhost' identified BY '12345';
 

@@ -1,7 +1,5 @@
 CREATE SCHEMA `bancotech` DEFAULT CHARACTER SET utf8mb4 ;
 
-use bancotech;
-
 CREATE TABLE vaga(
 id int not null auto_increment,
 titulo    varchar (50) not null,
@@ -30,23 +28,29 @@ CREATE TABLE candidato(
 idcandidato int not null auto_increment,
 nascimento     varchar (20),
 nacionalidade  varchar(20),
-sexo   varchar (15) ,
+sexo   varchar (15) not null,
 raca   varchar(15),
 linkedin   varchar(50),
 telefone  varchar (15),
-celular varchar (15) unique,
+celular varchar (15) unique not null,
 cep varchar (10),
 logadouro varchar (10),
 endereco varchar (50),
-numero varchar(30),
+numero bigint,
 cidade varchar (50),
 complemento  varchar (30),
 idusuario int,
+idformacao int,
+idcurso int,
+idexperiencia int,
 foreign key(idusuario) references usuario(id),
+foreign key(idformacao) references formacao(idformacao),
+foreign key(idcurso) references curso (idcurso),
+foreign key(idexperiencia) references experiencia(idexperiencia),
 primary key (idcandidato)
 );
 
-drop database bancotech;
+drop table candidato;
 
 ALTER TABLE candidato change nascionalidade nacionalidade varchar(20);
 
@@ -54,50 +58,41 @@ describe candidato;
 
 CREATE TABLE formacao(
 idformacao int not null auto_increment,
-tipo    varchar (20),
-nomeformacao     varchar (50),
-instituicao  varchar(50),
-inicio   varchar (15) ,
+tipo    varchar (20) not null,
+nomeformacao     varchar (50) unique not null,
+instituicao  varchar(50) unique not null,
+inicio   varchar (15) not null,
 termino   varchar(15),
-situacao   varchar(15), 
-idcandidato int,
-foreign key(idcandidato) references candidato(idcandidato),
+situacao   varchar(15),  
 primary key (idformacao)
 );
 
-INSERT INTO  formacao (tipo, nomeformacao, instituicao, inicio, termino, situacao, idcandidato) VALUES ('graduacao', 'banco','fatec','1212','1212', 'concluid', '2');
-
 CREATE TABLE curso(
 idcurso int not null auto_increment,
-nomecurso varchar (20),
-instituicao  varchar(50),
-conclusao   varchar (15),
+nomecurso   varchar (20) not null,
+instituicao  varchar(50) unique not null,
+conclusao   varchar (15) not null,
 nivel   varchar(15),
 idioma   varchar(30),
-idcandidato int,
-foreign key(idcandidato) references candidato(idcandidato),
 primary key (idcurso)
 );
 
-select * from curso;
 
 CREATE TABLE experiencia(
 idexperiencia int not null auto_increment,
-empresa    varchar (20),
-cargo     varchar (50),
-segmento  varchar(50),
-inicio   varchar (15),
+empresa    varchar (20) not null,
+cargo     varchar (50) unique not null,
+segmento  varchar(50) unique not null,
+inicio   varchar (15) not null,
 termino   varchar(15),
 atual   varchar(15),  
-descricao   varchar(500),
-idcandidato int,
-foreign key(idcandidato) references candidato(idcandidato),  
+descricao   varchar(500),  
 primary key (idexperiencia)
 );
 
 CREATE TABLE aplicado(
 idaplicado int not null auto_increment,
-dia timestamp default current_timestamp,
+dia varchar(15),
 idcandidato int,
 idvaga int,
 foreign key(idcandidato) references candidato(idcandidato),
@@ -108,7 +103,7 @@ Insert INTO aplicado (mesa)  VALUES ('quadrado');
 
 
 
-select * from formacao;
+select * from candidato;
 
 CREATE USER 'pro4tech'@'localhost' identified BY '12345';
 
