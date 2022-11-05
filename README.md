@@ -15,7 +15,7 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
 </p>
 
 <h2 align="center"> 💻 Modo de uso do sistema</h2>
-<p>Você pode acessar o modo de uso do sistema clicando <a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.3/Como-usar">aqui</a></p>
+<p align="center"><b>Você pode acessar o modo de uso do sistema clicando <a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.3/Como-usar"><em>aqui</em></a></b></p><br><br>
 
 <h2 text align= "left"> 🗓️ Cronograma
 </h2>    
