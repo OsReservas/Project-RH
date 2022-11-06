@@ -93,10 +93,13 @@ idaplicado int not null auto_increment,
 dia timestamp default current_timestamp,
 idcandidato int,
 idvaga int,
+titulovaga varchar(50),
 foreign key(idcandidato) references candidato(idcandidato),
 foreign key(idvaga) references vaga(id),
 primary key (idaplicado));
 
+
+select * from aplicado;
 
 CREATE USER 'pro4tech'@'localhost' identified BY '12345';
 
