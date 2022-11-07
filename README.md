@@ -72,6 +72,72 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
     </tr>
 </table>
 
+    
+<h2 align="center">Product Backlog:</h2><br>
+<table align="center">
+  <tr>
+   <td>Ação</td>
+   <td>Prioridade</td>
+  </tr>
+
+  <tr>
+   <td>RH pode realizar a inclusão de uma vaga</td>
+   <td>1</td>
+  </tr>
+
+  <tr>
+   <td>RH pode colocar atributos na vaga</td>
+   <td>1</td>
+  </tr>
+
+  <tr>
+   <td>RH gerencia vaga</td>
+   <td>1</td>
+  </tr>
+ 
+  <tr>
+    <td>Criar Superusuário do sistema</td>
+    <td>1</td>
+  </tr>
+  
+  <tr>
+    <td>Candidato pode se aplicar na vaga de interesse</td>
+    <td>2</td>
+  </tr>
+ 
+  <tr>
+     <td>Realização de cadastro pelo candidato</td>
+     <td>2</td>
+  </tr>
+  
+  
+  <tr>
+     <td>RH recebe relatório</td>
+     <td>3</td>
+  </tr>
+ 
+  <tr>
+     <td>Candidato pode acompanhar o andamento da vaga</td>
+     <td>3</td>
+  </tr>
+ 
+  <tr>
+     <td>Candidato pode desistir da vaga</td>
+     <td>3</td>
+  </tr>
+ 
+ 
+  <tr>
+     <td>Em andamento, deve conter campo de obsevação para o RH</td>
+     <td>3</td>
+  </tr>
+ 
+  <tr>
+     <td>Adicionar relatórios</td>
+     <td>3</td>
+  </tr>
+ 
+</table>
 <!--<h2 align="center">Product Backlog</h2>-->
 
 <h2 align="center">User Stories :computer:</h2>
@@ -80,16 +146,10 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
     <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.2/doc/userstories/userstories_2.png" width="600px">
 <p align="left">
 
-<!--<h2 align="center">Wireframes</h2>
-    <p align="center">
-    <img src= "" width="600px">
-    <img src= "" width="600px">-->
-
 <h2 align="center">Burndown 3º Sprint 📊</h2><br>
-
-
-
-
+    <p align="center">
+    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.3/Imagens3sprint/burndown3sprint.JPG" width="600px">
+    </p>
 
 <h2>Equipe 👩‍💻</h2>
 <ul>
