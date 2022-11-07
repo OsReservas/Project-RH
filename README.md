@@ -1,23 +1,79 @@
-<h1 text align= "center"> 💼 O Projeto </h1>
+<p align="center">
+    <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"/>
+    <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white"/>
+    <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
+    <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
 
-
-
-
-
-<h1 text align= "center"> 🏢 Sobre a Empresa Parceira </h1>
 <div text align="center">
-<img src="imagereadme/logo-black.svg"  width="591" height="200" />
+<img src="https://github.com/ZeldaBD/Project-RH/raw/main/imagereadme/logo-black.svg"  width="591" height="200" />
 </div><br>
-A Pro4tech é fábrica de softwares que por meio da utilização de práticas avançadas desenvolve soluções de software sob medida, ajudando clientes a inovar, se diferenciar e crescer. Com experiência em diversas tecnologias, construindo aplicações Web e Mobile inseridas em contextos de alta complexidade e necessidades específicas para cada negócio, com Sede  na cidade de sao paulo/Brasil
+<p align="left">
+A Pro4tech é uma fábrica de softwares que por meio da utilização de práticas avançadas desenvolve soluções de software sob medida, ajudando clientes a inovar, se diferenciar e crescer. Com experiência em diversas tecnologias, construindo aplicações Web e Mobile inseridas em contextos de alta complexidade e necessidades específicas para cada negócio, com sede  na cidade de São Paulo.
+O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de vaga para Recursos Humanos, onde serão cruzados os dados dos candidatos com as vagas disponíveis, gerando assim um relatório para o RH.
+</p>
 
+<h2 align="center"> 💻 Modo de uso do sistema</h2>
+<p align="center"><b>Você pode acessar o modo de uso do sistema clicando <a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.3/Como-usar"><em>aqui</em></a></b></p><br><br>
 
+<h2 text align= "left"> 🗓️ Cronograma
+</h2>    
 
+- Kick off 18/08/2022 <br>
+- 1º sprint 29/08/2022 a 18/09/2022<BR>
+- 2º sprint 19/08/2022 a 09/10/2022
+- 3º sprint  06/11/2022
+- 4º sprint  27/11/2022
+- Feira de soluções
 
-<h1 text align= "center"> 🎯*Objetivo </h1>
-Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos, onde serão cruzados os dados dos candidatos com as vagas disponíveis, gerando assim um relatório para o RH
+<h2 align="center">Sprint Backlog 📊</h2><br>  
 
+<table align="center">
+    <thead>
+        <th>Ação</th>
+        <th>Prioridade</th>
+    </thead>
+    <tr>
+        <td><p>Cadastro de candidato</p></td>
+        <td><p align="center">1</p></td>
+    </tr>
+    <tr>
+        <td><p>O candidato pode se aplicar à vaga</p></td>
+        <td><p align="center">2</p></td>
+    </tr>
+</table>
 
-<h2>Product Backlog:</h2><br>
+<h2 align="center">Entregas</h2>
+<table align="center">
+    <thead>
+        <th width=100px>Sprint</th>
+        <th width=450px>Descrição</th>
+        <th width=70px>Entrega</th>
+        <th width=45px>Read me</th>
+    </thead>
+    <tr>
+        <td><p align="center">Sprint 1</p></td>
+        <td><p align="justify">Criação de interfaces e de tela cadastro de vaga.</p></td>
+        <td><p align="center">18/09</p></td>
+        <td><p align="center"><a href="https://github.com/ZeldaBD/Project-RH/tree/version1.0">View</a></p></td>
+    </tr>
+    <tr>
+        <td><p align="center">Sprint 2</p></td>
+        <td><p align="justify">Gerenciamento de vaga, criação do banco de dados, mascaras e mudanças na interface</p></td>
+        <td><p align="center">09/10</p></td>
+        <td><p align="center"><a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.2">View</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">Sprint 3</p></td>
+        <td><p align="justify">Cadastro de candidato, o usuário pode se aplicar a vaga, filtros de pesquisa, permissões extras adm</p></td>
+        <td><p align="center">06/11</p></td>
+        <td><p align="center"><a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.3">View</p></td>
+    </tr>
+</table>
+
+    
+<h2 align="center">Product Backlog:</h2><br>
 <table align="center">
   <tr>
    <td>Ação</td>
@@ -82,79 +138,28 @@ Criar um sistema de gerenciamento de gerenciamento de vaga para Recursos Humanos
   </tr>
  
 </table>
+<!--<h2 align="center">Product Backlog</h2>-->
 
-    
-    
-    
-    
-<h1 text align= "center"> 🗓️ Cronograma </h1>
-</h2>    
+<h2 align="center">User Stories :computer:</h2>
+    <p align="center">
+    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.2/doc/userstories/userstories_1.png" width="600px">
+    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.2/doc/userstories/userstories_2.png" width="600px">
+<p align="left">
 
-:heavy_check_mark:  - Kick off 18/08/2022 <br>
-:heavy_check_mark: - 1º sprint 29/08/2022 a 18/09/2022
-- [ ]  - 2º sprint  09/10/2022
-- [ ]  - 3º sprint  06/11/2022
-- [ ]  - 4º sprint  27/11/2022
-- [ ]  - Feira de soluções
-<hr>
+<h2 align="center">Burndown 3º Sprint 📊</h2><br>
+    <p align="center">
+    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.3/Imagens3sprint/burndown3sprint.JPG" width="600px">
+    </p>
 
-<div text align="center">
-<img src="imagereadme/grafico burndown.PNG"  width="591" height="200" />
-</div><br>
-  
-<h1 text align= "center"> Equipe 🧑‍💻 👩‍💻 </h1>
+<h2>Equipe 👩‍💻</h2>
+<ul>
+    <li><a href="https://www.linkedin.com/in/thiago-lopes-chaves-5ba22b209">Thiago Chaves </a>(<i>Scrum Master</i>)</li>
+    <li><a href="https://www.linkedin.com/in/murilo-jos%C3%A9-de-brito-junior-32403b157">Murilo Junior</a> (<i>Product Owner</i>)</li>
+    <li><a href="https://www.linkedin.com/in/bewtrice/">Beatrice Lopes Correa</a> (<i>Database Team</i>)</li>
+    <li><a href="https://www.linkedin.com/mwlite/in/guilherme-alves-163783156">Guilherme Alves</a> (<i>Dev Team Frontend</i>)</li>
+    <li><a href="https://www.linkedin.com/in/marcelo-silva-07081999">Marcelo Bueno</a> (<i>Dev Team Backend</i>)</li>
 
-<h2> :clap: Um agradecimento especial as seguintes pessoas que contribuíram para que este projeto fosse possivel </h2>
-
-<table align= "center">
-      <tr text align= "center">
-            <td >Nome</td>
-            <td >Cargo/Funcao</td>
-            <td>Linkedin</td>
-            <td>Avatar</td>
-      </tr>
-      <tr text align= "center">
-            <td>André Gabriel</td>
-            <td>product owner</td>
-            <td><a href="https://www.linkedin.com/in/andr%C3%A9-gabriel-ferreira-89441382/" target="_blank"><img src="imagereadme/linkedin.png"                           target="_blank"></a></td>
-            <td><img src="/imagereadme/andre.jpeg" width="120" height="135" /></td>
-      </tr>
-      <tr text align= "center" >
-            <td>Guilherme Alves</td>
-            <td>Dev Team front-end</td>
-            <td><a href="https://www.linkedin.com/mwlite/in/guilherme-alves-163783156" target="_blank"><img src="imagereadme/linkedin.png" target="_blank">               </a></td>
-            <td><img src="imagereadme/guiavatar.png" width="120" height="135"  /></td>
-      </tr>
-       <tr text align= "center">
-            <td>Maria Alice</td>
-            <td>Dev Team front-end</td>
-            <td><a href="https://www.linkedin.com/in/maria-alice-oliveira-336273215" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a>             </td>
-            <td><img src="imagereadme/alice.jpeg" width="120" height="135" /></td>
-       </tr>
-       <tr text align= "center">
-            <td>Marcelo Bueno</td>
-            <td>Dev Team backend</td>
-            <td><a href="https://www.linkedin.com/in/marcelo-silva-07081999" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a></td>
-            <td><img src="imagereadme/marcelo.jpeg" width="120" height="135"/></td>
-      </tr>
-      <tr text align= "center" >
-            <td>Murilo Junior</td>
-            <td>Dev Team backend</td>
-            <td><a href="https://www.linkedin.com/in/murilo-jos%C3%A9-de-brito-junior-32403b157" target="_blank"><img src="imagereadme/linkedin.png"                     target="_blank"></a></td>
-            <td><img src="imagereadme/murilo.jpeg" width="120" height="135"/></td>
-      </tr>
-      <tr text align= "center" >
-            <td>Thiago Chaves</td>
-            <td>Scrum Master</td>
-            <td><a href="https://www.linkedin.com/in/thiago-lopes-chaves-5ba22b209" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a>             </td>
-            <td><img src="imagereadme/thiago.jpeg" width="120" height="135" /></td>
-      </tr>
-      <tr text align= "center">
-            <td>Beatrice Lopes</td>
-            <td>Team Database</td>
-            <td><a href="https://www.linkedin.com/in/bewtrice/" target="_blank"><img src="imagereadme/linkedin.png" target="_blank"></a>             </td>
-            <td><img src="imagereadme/avatarbea.jpeg" width="120" height="135" /></td>
-      </tr>
-</table>
-
-
+</ul>
+        
+        
+ 

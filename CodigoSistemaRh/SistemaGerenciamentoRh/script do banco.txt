@@ -1,0 +1,23 @@
+CREATE SCHEMA `bancotech` DEFAULT CHARACTER SET utf8 ;
+
+CREATE TABLE vaga(
+id int not null auto_increment,
+titulo    varchar (50),
+cargo     varchar(50),
+formacao  varchar(40),
+periodo   varchar (20),
+regime    varchar(15),
+descricao varchar (500),
+salario   decimal(7,2)
+primary key (id)
+);
+
+CREATE TABLE usuario(
+id int not null auto_increment,
+nome    varchar (70),
+cpf     bigint unique,
+email  varchar(100),
+senha   varchar (260),
+acesso    varchar(15),
+primary key (id)
+);
