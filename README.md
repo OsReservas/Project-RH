@@ -83,7 +83,8 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
 <h2 align="center">Burndown 3º Sprint 📊</h2><br>
     <p align="center">
     <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.3/Imagens3sprint/burndown3sprint.JPG" width="600px">
-<p align="left">
+    </p>
+
 
 
 <h2>Equipe 👩‍💻</h2>
