@@ -46,6 +46,7 @@ foreign key(idusuario) references usuario(id),
 primary key (idcandidato)
 );
 
+
 CREATE TABLE formacao(
 idformacao int not null auto_increment,
 tipo    varchar (20),
@@ -59,17 +60,19 @@ foreign key(idcandidato) references candidato(idcandidato),
 primary key (idformacao)
 );
 
+
 CREATE TABLE curso(
 idcurso int not null auto_increment,
-nomecurso varchar (100),
-instituicao  varchar(100),
+nomecurso varchar (20),
+instituicao  varchar(50),
 conclusao   varchar (15),
 nivel   varchar(15),
-idioma   varchar(50),
+idioma   varchar(30),
 idcandidato int,
 foreign key(idcandidato) references candidato(idcandidato),
 primary key (idcurso)
 );
+
 
 CREATE TABLE experiencia(
 idexperiencia int not null auto_increment,
@@ -91,11 +94,10 @@ dia timestamp default current_timestamp,
 idcandidato int,
 idvaga int,
 titulovaga varchar(50),
-andamento varchar(50),
-observacao varchar(255),
 foreign key(idcandidato) references candidato(idcandidato),
 foreign key(idvaga) references vaga(id),
 primary key (idaplicado));
+
 
 CREATE USER 'pro4tech'@'localhost' identified BY '12345';
 
@@ -115,7 +117,3 @@ GRANT select, insert, update, delete ON bancotech.aplicado to 'pro4tech'@'localh
 
 insert into usuario (nome, cpf, email, senha, acesso, ativo) values ('rhpro4tec','111.111.111-11', 'rh@pro4tech.com', '8d79c3c06582cede889341b2afcae2fe', 'Rh', 'SIM');
 insert into usuario (nome, cpf, email, senha, acesso, ativo) values ('adm', '000.000.000-00','adm@pro4tech.com', '80177534a0c99a7e3645b52f2027a48b', 'Admin','SIM' );
-
-insert into vaga (titulo, cargo, formacao, periodo, regime, descricao, salario, ativo) values ('Desenvolvedor Java','Dev Sr', 'Banco de Dados', '9h as 17h', 'PJ', 'Trabalhar em equipe', '9999,00', 'SIM');
-insert into vaga (titulo, cargo, formacao, periodo, regime, descricao, salario, ativo) values ('Desenvolvedor Python','Dev Jr', 'Analise e Dev de Sistemas', '10h as 19h', 'CLT', 'Trabalhar muiti', '8999,00', 'SIM');
-insert into vaga (titulo, cargo, formacao, periodo, regime, descricao, salario, ativo) values ('Desenvolvedor C++','Dev Pleno', 'Banco de Dados', '9h as 17h', 'Freelancer', 'Trabalhar em equipe', '1000,00', 'SIM');
