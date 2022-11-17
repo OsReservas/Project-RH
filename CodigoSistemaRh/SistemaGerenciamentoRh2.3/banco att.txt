@@ -2,7 +2,6 @@ CREATE SCHEMA `bancotech` DEFAULT CHARACTER SET utf8mb4 ;
 
 use bancotech;
 
-
 CREATE TABLE vaga(
 id int not null auto_increment,
 titulo    varchar (50) not null,
@@ -36,8 +35,8 @@ raca   varchar(15),
 linkedin   varchar(50),
 telefone  varchar (15),
 celular varchar (15) unique,
-cep varchar (10),
-logadouro varchar (10),
+cep varchar (15),
+logadouro varchar (30),
 endereco varchar (50),
 numero varchar(30),
 cidade varchar (50),
@@ -64,8 +63,8 @@ CREATE TABLE curso(
 idcurso int not null auto_increment,
 nomecurso varchar (100),
 instituicao  varchar(100),
-conclusao   varchar (15),
-nivel   varchar(15),
+conclusao   varchar (30),
+nivel   varchar(30),
 idioma   varchar(50),
 idcandidato int,
 foreign key(idcandidato) references candidato(idcandidato),
@@ -74,7 +73,7 @@ primary key (idcurso)
 
 CREATE TABLE experiencia(
 idexperiencia int not null auto_increment,
-empresa    varchar (20),
+empresa    varchar (100),
 cargo     varchar (50),
 segmento  varchar(50),
 inicio   varchar (15),
@@ -98,6 +97,8 @@ foreign key(idcandidato) references candidato(idcandidato),
 foreign key(idvaga) references vaga(id),
 unique (idcandidato, idvaga),
 primary key (idaplicado));
+
+select * from aplicado;
 
 CREATE USER 'pro4tech'@'localhost' identified BY '12345';
 
