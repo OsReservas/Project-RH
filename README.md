@@ -4,6 +4,7 @@
     <img src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white"/>
     <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
     <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white"/>
 </p>
 
 <div text align="center">
@@ -14,17 +15,17 @@ A Pro4tech é uma fábrica de softwares que por meio da utilização de prática
 O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de vaga para Recursos Humanos, onde serão cruzados os dados dos candidatos com as vagas disponíveis, gerando assim um relatório para o RH.
 </p>
 
-<h2 align="center"> 💻 Modo de uso do sistema</h2>
-<p align="center"><b>Você pode acessar o modo de uso do sistema clicando <a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.3/Como-usar"><em>aqui</em></a></b></p><br><br>
+<h2 align="center"> 💻 Manual de Utilizacao</h2>
+<p align="center"><b>Você pode acessar o manual de como baixar e utilizar o sistema clicando <a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.3/Como-usar"><em>aqui</em></a></b></p><br><br>
 
 <h2 text align= "left"> 🗓️ Cronograma
 </h2>    
 
 - Kick off 18/08/2022 <br>
-- 1º sprint 29/08/2022 a 18/09/2022<BR>
-- 2º sprint 19/08/2022 a 09/10/2022
-- 3º sprint  06/11/2022
-- 4º sprint  27/11/2022
+- [x] 1º sprint 29/08/2022 a 18/09/2022<BR>
+- [x] 2º sprint 19/08/2022 a 09/10/2022
+- [x] 3º sprint 10/10/2022 a 06/11/2022
+- [x] 4º sprint 07/11/2022 a 27/11/2022
 - Feira de soluções
 
 <h2 align="center">Sprint Backlog 📊</h2><br>  
