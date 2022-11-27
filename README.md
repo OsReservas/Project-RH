@@ -7,7 +7,7 @@
 </p>
 
 <div text align="center">
-<img src="https://github.com/ZeldaBD/Project-RH/raw/main/imagereadme/logo-black.svg"  width="591" height="200" />
+<img src="doc/image/logo-sliders.svg"  width="591" height="200" />
 </div><br>
 <p align="left">
 A Pro4tech é uma fábrica de softwares que por meio da utilização de práticas avançadas desenvolve soluções de software sob medida, ajudando clientes a inovar, se diferenciar e crescer. Com experiência em diversas tecnologias, construindo aplicações Web e Mobile inseridas em contextos de alta complexidade e necessidades específicas para cada negócio, com sede  na cidade de São Paulo.
@@ -35,11 +35,11 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
         <th>Prioridade</th>
     </thead>
     <tr>
-        <td><p>Cadastro de candidato</p></td>
+        <td><p>Canditado pode acompanhar seu registro nas vagas</p></td>
         <td><p align="center">1</p></td>
     </tr>
     <tr>
-        <td><p>O candidato pode se aplicar à vaga</p></td>
+        <td><p>Emissão de relatorios</p></td>
         <td><p align="center">2</p></td>
     </tr>
 </table>
@@ -48,7 +48,7 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
 <table align="center">
     <thead>
         <th width=100px>Sprint</th>
-        <th width=450px>Descrição</th>
+        <th width=450px>Backlog</th>
         <th width=70px>Entrega</th>
         <th width=45px>Read me</th>
     </thead>
@@ -70,6 +70,12 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
         <td><p align="center">06/11</p></td>
         <td><p align="center"><a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.3">View</p></td>
     </tr>
+       <tr>
+        <td><p align="center">Sprint 4</p></td>
+        <td><p align="justify">O candidato pode acompanhar a vaga selecionada, emissão de relatótios e correção de feedbacks da ultima sprint</p></td>
+        <td><p align="center">27/11</p></td>
+        <td><p align="center"><a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.4">View</p></td>
+    </tr>
 </table>
 
     
@@ -87,68 +93,63 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
 
   <tr>
    <td>RH pode colocar atributos na vaga</td>
-   <td>1</td>
+   <td>2</td>
   </tr>
 
   <tr>
    <td>RH gerencia vaga</td>
-   <td>1</td>
+   <td>3</td>
   </tr>
  
   <tr>
     <td>Criar Superusuário do sistema</td>
-    <td>1</td>
+    <td>4</td>
   </tr>
   
   <tr>
     <td>Candidato pode se aplicar na vaga de interesse</td>
-    <td>2</td>
+    <td>5</td>
   </tr>
  
   <tr>
      <td>Realização de cadastro pelo candidato</td>
-     <td>2</td>
+     <td>6</td>
   </tr>
   
   
   <tr>
      <td>RH recebe relatório</td>
-     <td>3</td>
+     <td>7</td>
   </tr>
  
   <tr>
      <td>Candidato pode acompanhar o andamento da vaga</td>
-     <td>3</td>
+     <td>8</td>
   </tr>
  
   <tr>
      <td>Candidato pode desistir da vaga</td>
-     <td>3</td>
+     <td>9</td>
   </tr>
  
  
   <tr>
      <td>Em andamento, deve conter campo de obsevação para o RH</td>
-     <td>3</td>
+     <td>10</td>
   </tr>
  
   <tr>
      <td>Adicionar relatórios</td>
-     <td>3</td>
+     <td>11</td>
   </tr>
  
 </table>
 <!--<h2 align="center">Product Backlog</h2>-->
 
-<h2 align="center">User Stories :computer:</h2>
-    <p align="center">
-    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.2/doc/userstories/userstories_1.png" width="600px">
-    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.2/doc/userstories/userstories_2.png" width="600px">
-<p align="left">
 
-<h2 align="center">Burndown 3º Sprint 📊</h2><br>
+<h2 align="center">Burndown 4º Sprint 📊</h2><br>
     <p align="center">
-    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.3/Imagens3sprint/burndown3sprint.JPG" width="600px">
+    <img src="" width="600px">
     </p>
 
 <h2>Equipe 👩‍💻</h2>
