@@ -18,15 +18,18 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
 <h2 align="center"> 💻 Manual de Utilizacao</h2>
 <p align="center"><b>Você pode acessar o manual de como baixar e utilizar o sistema clicando <a href="https://github.com/ZeldaBD/Project-RH/tree/version-0.3/Como-usar"><em>aqui</em></a></b></p><br><br>
 
-<h2 text align= "left"> 🗓️ Cronograma
+<h2 text align= "center"> 🗓️ Cronograma
 </h2>    
 
-- Kick off 18/08/2022 <br>
-- [x] 1º sprint 29/08/2022 a 18/09/2022<BR>
-- [x] 2º sprint 19/08/2022 a 09/10/2022
-- [x] 3º sprint 10/10/2022 a 06/11/2022
-- [x] 4º sprint 07/11/2022 a 27/11/2022
+<div text align= "center">
+<h3 text align= "center">Kick off 18/08/2022</h3> <br>
+✅| 1º sprint 29/08/2022 a 18/09/2022<br>
+✅| 2º sprint 19/08/2022 a 09/10/2022<br>
+✅| 3º sprint 10/10/2022 a 06/11/2022<br>
+✅| 4º sprint 07/11/2022 a 27/11/2022<br>
 - Feira de soluções
+</div>
+
 
 <h2 align="center">Sprint Backlog 📊</h2><br>  
 
@@ -155,15 +158,14 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
     <img src="" width="600px">
     </p>
 
+<div text align= "center">
 <h2>Equipe 👩‍💻</h2>
-<ul>
-    <li><a href="https://www.linkedin.com/in/thiago-lopes-chaves-5ba22b209">Thiago Chaves </a>(<i>Scrum Master</i>)</li>
-    <li><a href="https://www.linkedin.com/in/murilo-jos%C3%A9-de-brito-junior-32403b157">Murilo Junior</a> (<i>Product Owner</i>)</li>
-    <li><a href="https://www.linkedin.com/in/bewtrice/">Beatrice Lopes Correa</a> (<i>Database Team</i>)</li>
-    <li><a href="https://www.linkedin.com/mwlite/in/guilherme-alves-163783156">Guilherme Alves</a> (<i>Dev Team Frontend</i>)</li>
-    <li><a href="https://www.linkedin.com/in/marcelo-silva-07081999">Marcelo Bueno</a> (<i>Dev Team Backend</i>)</li>
-
-</ul>
+<a href="https://www.linkedin.com/in/thiago-lopes-chaves-5ba22b209">Thiago Chaves </a>(<i>Scrum Master</i>)</li><br>
+<a href="https://www.linkedin.com/in/murilo-jos%C3%A9-de-brito-junior-32403b157">Murilo Junior</a> (<i>Product Owner</i>)</li><br>
+<a href="https://www.linkedin.com/in/bewtrice/">Beatrice Lopes Correa</a> (<i>Database Team</i>)</li><br>
+<a href="https://www.linkedin.com/in/guilhermealvesnas/">Guilherme Alves</a> (<i>Dev Team Frontend</i>)</li><br>
+<a href="https://www.linkedin.com/in/marcelo-silva-07081999">Marcelo Bueno</a> (<i>Dev Team Backend</i>)</li><br>
+</div>
         
         
  
