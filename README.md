@@ -144,9 +144,11 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
   </tr>
  
 </table>
-<!--<h2 align="center">Product Backlog</h2>-->
 
 
+<h2 align="center">Tasklist</h2>
+    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.4/doc/imagereadme/Trello.png"><br>
+    
 <h2 align="center">Burndown 4º Sprint 📊</h2><br>
     <p align="center">
     <img src="" width="600px">
