@@ -4,12 +4,12 @@ use bancotech;
 
 CREATE TABLE vaga(
 id int not null auto_increment,
-titulo    varchar (50) not null,
-cargo     varchar(50),
-formacao  varchar(40),
-periodo   varchar (20),
-regime    varchar(15),
-descricao varchar (500),
+titulo    varchar (100) not null,
+cargo     varchar(100) not null,
+formacao  varchar(100) not null,
+periodo   varchar (30) not null,
+regime    varchar(15) not null,
+descricao varchar (500) not null,
 salario   varchar(10),
 ativo     varchar(5),
 primary key (id)
@@ -28,61 +28,58 @@ primary key (id)
 
 CREATE TABLE candidato(
 idcandidato int not null auto_increment,
-nascimento     varchar (20),
-nacionalidade  varchar(20),
-sexo   varchar (15) ,
-raca   varchar(15),
-linkedin   varchar(50),
-telefone  varchar (15),
-celular varchar (15) unique,
-cep varchar (10),
-logadouro varchar (10),
-endereco varchar (50),
-numero varchar(30),
-cidade varchar (50),
+nascimento     varchar (20) not null,
+nacionalidade  varchar(50) not null,
+sexo   varchar (15) not null,
+raca   varchar(15) not null,
+linkedin   varchar(100) not null,
+telefone  varchar (15) ,
+celular varchar (15) not null unique,
+cep varchar (15) not null,
+logadouro varchar (100) not null,
+endereco varchar (100) not null,
+numero varchar(30) not null,
+cidade varchar (50) not null,
 complemento  varchar (30),
 idusuario int,
 foreign key(idusuario) references usuario(id),
 primary key (idcandidato)
 );
 
-
 CREATE TABLE formacao(
 idformacao int not null auto_increment,
-tipo    varchar (20),
-nomeformacao     varchar (50),
-instituicao  varchar(50),
-inicio   varchar (15) ,
-termino   varchar(15),
-situacao   varchar(15), 
+tipo    varchar (20) not null,
+nomeformacao     varchar (50) not null,
+instituicao  varchar(50) not null,
+inicio   varchar (15) not null,
+termino   varchar(15) not null,
+situacao   varchar(30) not null, 
 idcandidato int,
 foreign key(idcandidato) references candidato(idcandidato),
 primary key (idformacao)
 );
 
-
 CREATE TABLE curso(
 idcurso int not null auto_increment,
-nomecurso varchar (20),
-instituicao  varchar(50),
-conclusao   varchar (15),
-nivel   varchar(15),
-idioma   varchar(30),
+nomecurso varchar (100) not null,
+instituicao  varchar(100) not null,
+conclusao   varchar (30) not null,
+nivel   varchar(30) not null,
+idioma   varchar(50) not null,
 idcandidato int,
 foreign key(idcandidato) references candidato(idcandidato),
 primary key (idcurso)
 );
 
-
 CREATE TABLE experiencia(
 idexperiencia int not null auto_increment,
-empresa    varchar (20),
-cargo     varchar (50),
-segmento  varchar(50),
-inicio   varchar (15),
+empresa    varchar (100) not null,
+cargo     varchar (50) not null,
+segmento  varchar(50) not null,
+inicio   varchar (15) not null,
 termino   varchar(15),
-atual   varchar(15),  
-descricao   varchar(500),
+atual   varchar(15) not null,  
+descricao   varchar(500) not null,
 idcandidato int,
 foreign key(idcandidato) references candidato(idcandidato),  
 primary key (idexperiencia)
@@ -93,11 +90,13 @@ idaplicado int not null auto_increment,
 dia timestamp default current_timestamp,
 idcandidato int,
 idvaga int,
-titulovaga varchar(50),
+titulovaga varchar(100),
+andamento varchar(50),
+observacao varchar(255),
 foreign key(idcandidato) references candidato(idcandidato),
 foreign key(idvaga) references vaga(id),
+unique (idcandidato, idvaga),
 primary key (idaplicado));
-
 
 CREATE USER 'pro4tech'@'localhost' identified BY '12345';
 
@@ -117,3 +116,7 @@ GRANT select, insert, update, delete ON bancotech.aplicado to 'pro4tech'@'localh
 
 insert into usuario (nome, cpf, email, senha, acesso, ativo) values ('rhpro4tec','111.111.111-11', 'rh@pro4tech.com', '8d79c3c06582cede889341b2afcae2fe', 'Rh', 'SIM');
 insert into usuario (nome, cpf, email, senha, acesso, ativo) values ('adm', '000.000.000-00','adm@pro4tech.com', '80177534a0c99a7e3645b52f2027a48b', 'Admin','SIM' );
+
+insert into vaga (titulo, cargo, formacao, periodo, regime, descricao, salario, ativo) values ('Desenvolvedor Java','Dev Sr', 'Banco de Dados', '9h as 17h', 'PJ', 'Trabalhar em equipe', '9999,00', 'SIM');
+insert into vaga (titulo, cargo, formacao, periodo, regime, descricao, salario, ativo) values ('Desenvolvedor Python','Dev Jr', 'Analise e Dev de Sistemas', '10h as 19h', 'CLT', 'Trabalhar muiti', '8999,00', 'SIM');
+insert into vaga (titulo, cargo, formacao, periodo, regime, descricao, salario, ativo) values ('Desenvolvedor C++','Dev Pleno', 'Banco de Dados', '9h as 17h', 'Freelancer', 'Trabalhar em equipe', '1000,00', 'SIM');
