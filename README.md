@@ -155,7 +155,7 @@ O objetivo de nosso Projeto Integrado é criar um sistema de gerenciamento de va
     
 <h2 align="center">Burndown 4º Sprint 📊</h2><br>
     <p align="center">
-    <img src="" width="600px">
+    <img src="https://github.com/ZeldaBD/Project-RH/blob/version-0.4/Burndown%204%C2%BA%20Sprint/4%20SPRINT.JPG" width="600px">
     </p>
 
 <div text align= "center">
